@@ -1,0 +1,61 @@
+/* wdr.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0d3d3;
+    padding-top: 50px;
+    height: 700px;
+  }
+  
+  .weather {
+    margin-bottom: 20px;
+  }
+  
+  .weather input[type="text"] {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .weather button {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .weather button:hover {
+    background-color: #0056b3;
+  }
+  
+  .weatherinfo {
+    text-align: center;
+  }
+  
+  .weatherinfo img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .weatherinfo h1 {
+    font-size: 36px;
+    margin-top: 10px;
+  }
+  
+  .weatherinfo h2 {
+    font-size: 24px;
+    color: #666;
+  }
+  .weather_data{
+    display: flex;
+    border: 2px solid black;
+    width: 100vh;
+    padding: 10px;
+    margin: 10px;
+  }
